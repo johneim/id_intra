@@ -13,16 +13,23 @@
     <title>InfiniteDATA Intranet</title>
 </head>
 <body>
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">one</a></li>
+        <li><a href="#!">two</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+    </ul>
     <nav class="white" role="navigation">
         <div class="nav-wrapper container">
-            <a id="logo-container" href="#" class="brand-logo"><img class="logo-img" src="{{URL::asset('/images/infinitedata_logo.jpg')}}" alt="InfiniteDATA Logo"></a>
+            <a id="logo-container" href="/" class="brand-logo"><img class="logo-img" src="{{URL::asset('/images/infinitedata_logo.jpg')}}" alt="InfiniteDATA Logo"></a>
             <ul class="right hide-on-med-and-down">
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+            </ul>
+            <!-- <ul id="nav-mobile" class="sidenav">
                 <li><a href="#">Navbar Link</a></li>
             </ul>
-            <ul id="nav-mobile" class="sidenav">
-                <li><a href="#">Navbar Link</a></li>
-            </ul>
-            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
         </div>
     </nav>
     <div id="index-banner" class="parallax-container">
@@ -134,8 +141,8 @@
         </div>
     </footer>
     <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/jquery2-1-1.js"></script>
+    <script type="text/javascript" src="js/app2.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script src="js/init.js"></script>
 </body>
