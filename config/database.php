@@ -60,7 +60,7 @@ return [
             'port' => env('DB_PORT', '5432'),
             'database' => env('DB_DATABASE', 'id_intra'),
             'username' => env('DB_USERNAME', 'postgres'),
-            'password' => env('DB_PASSWORD', 'admin123'),
+            'password' => env('DB_PASSWORD', 'eim51337'),
             'charset' => 'utf8',
             'prefix' => '',
             'schema' => 'public',

@@ -56,7 +56,10 @@ footer.page-footer {
   margin: 0;
 }
 
+/* CUSTOM BY EIMAN*/
 .logo-img {
     max-height: 64px!important;
     padding: 15px 0!important;
 }
+
+#mainrow { display: flex; }
