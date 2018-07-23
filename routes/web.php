@@ -14,3 +14,19 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/company', function () {
+	return view('company');
+});
+
+Route::get('/directories', function () {
+	return view('directories');
+});
+
+Route::get('/products', function () {
+	return view('products');
+});
+
+Route::get('/customers', function () {
+	return view('customers');
+});
