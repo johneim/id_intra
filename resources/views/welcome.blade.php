@@ -1,69 +1,64 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<!--Import Google Icon Font-->
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-<!--Import materialize.css-->
-<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-<!--Let browser know website is optimized for mobile-->
-<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-
-<link href='css/fullcalendar.min.css' rel='stylesheet' />
-<link href='css/fullcalendar.print.min.css' rel='stylesheet' media='print' />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>InfiniteDATA Intranet</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href='css/fullcalendar.min.css' rel='stylesheet' />
+    <link href='css/fullcalendar.print.min.css' rel='stylesheet' media='print'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>InfiniteDATA Intranet</title>
 </head>
 <body>
-@include('layouts.navbar')
-<div class="container">
-<div class="section">
-<div class="row">
-  <div class="col s12 m12">
-    <div class="carousel carousel-slider center">
-      <div class="carousel-fixed-item center">
-        <a class="btn waves-effect white grey-text darken-text-2">Read more</a>
-      </div>
-      <div class="carousel-item red white-text" href="#one!">
-        <h2>All-New ScheduleIn 3.0</h2>
-        <p class="white-text">InfiniteDATA will release the third version of its WLA software...</p>
-      </div>
-      <a class="carousel-item" href="#one!"><img src="images/istock-492539318-2000x1421.jpg"></a>
-      <div class="carousel-item amber white-text" href="#two!">
-        <h2>InfiniteDATA puts up its Manila site</h2>
-        <p class="white-text">Led by site manager and InfiniteDATA customer success manager Ariel Kenneth Ampol, InfiniteDATA ........</p>
-      </div>
-      <div class="carousel-item green white-text" href="#three!">
-        <h2>Automate NOW! Warsaw #3 on October 24!</h2>
-        <p class="white-text">For the third time, more than 700 IT professionals will gather for Automate NOW! which focuses on data warehousing, automation, big data, business intelligence......</p>
-      </div>
-      <div class="carousel-item blue white-text" href="#four!">
-        <h2>Fourth Panel</h2>
-        <p class="white-text">This is your fourth panel</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="row">
-  <div class="col s12 m6">
-    <div class="card blue darken-4">
-      <div class="card-content white-text">
-        <span class="card-title">Upcoming this month</span>
-        <ul class="collection grey-text text-darken-4">
-          <li class="collection-item avatar">
-            <img src="images/istock-492539318-2000x1421.jpg" alt="" class="circle">
-            <span class="title">Automate NOW! Warsaw</span>
-            <p>Aug 20 / Wednesday</p>
-            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-          </li>
-          <li class="collection-item avatar">
-            <i class="material-icons circle">build</i>
-  <span class="title">Patch 30 Release</span>
-  <p>Sept 4 / Friday
-  </p>
-  <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-</li>
+    @include('layouts.navbar')
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <div class="col s12 m12">
+                    <div class="carousel carousel-slider center">
+                        <div class="carousel-fixed-item center">
+                            <a class="btn waves-effect white grey-text darken-text-2">Read more</a>
+                        </div>
+                        <div class="carousel-item red white-text" href="#one!">
+                            <h2>All-New ScheduleIn 3.0</h2>
+                            <p class="white-text">InfiniteDATA will release the third version of its WLA software...</p>
+                        </div>
+                        <a class="carousel-item" href="#one!"><img src="images/istock-492539318-2000x1421.jpg"></a>
+                        <div class="carousel-item amber white-text" href="#two!">
+                            <h2>InfiniteDATA puts up its Manila site</h2>
+                            <p class="white-text">Led by site manager and InfiniteDATA customer success manager Ariel Kenneth Ampol, InfiniteDATA ........</p>
+                        </div>
+                        <div class="carousel-item green white-text" href="#three!">
+                            <h2>Automate NOW! Warsaw #3 on October 24!</h2>
+                            <p class="white-text">For the third time, more than 700 IT professionals will gather for Automate NOW! which focuses on data warehousing, automation, big data, business intelligence......</p>
+                        </div>
+                        <div class="carousel-item blue white-text" href="#four!">
+                            <h2>Fourth Panel</h2>
+                            <p class="white-text">This is your fourth panel</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card blue darken-4">
+                        <div class="card-content white-text">
+                            <span class="card-title">Upcoming this month</span>
+                            <ul class="collection grey-text text-darken-4">
+                                <li class="collection-item avatar">
+                                    <img src="images/istock-492539318-2000x1421.jpg" alt="" class="circle">
+                                    <span class="title">Automate NOW! Warsaw</span>
+                                    <p>Aug 20 / Wednesday</p>
+                                    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                                </li>
+                                <li class="collection-item avatar">
+                                    <i class="material-icons circle">build</i>
+                                    <span class="title">Patch 30 Release</span>
+                                    <p>Sept 4 / Friday</p>
+                                    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                                </li>
 <li class="collection-item avatar">
   <i class="material-icons circle green">computer</i>
   <span class="title">Title</span>
