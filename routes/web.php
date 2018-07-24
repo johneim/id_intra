@@ -17,13 +17,14 @@ Route::get('/', function () {
 
 Route::get('/newsandevents', 'NewsAndEventsController@index');
 
-
 Route::get('/company', function () {
-	return view('company');
+	$params['activenavbar'] = 'company';
+	return view('company', $params);
 });
 
-Route::get('/directories', function () {
-	return view('directories');
+Route::get('/directory', function () {
+	$params['activenavbar'] = 'directory';
+	return view('directories', $params);
 });
 
 Route::get('/products', function () {
