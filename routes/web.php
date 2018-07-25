@@ -18,19 +18,19 @@ Route::get('/', function () {
 Route::get('/newsandevents', 'NewsAndEventsController@index');
 
 Route::get('/company', function () {
-	$params['activenavbar'] = 'company';
-	return view('company', $params);
+    $params['activenavbar'] = 'company';
+    return view('company', $params);
 });
 
 Route::get('/directory', function () {
-	$params['activenavbar'] = 'directory';
-	return view('directories', $params);
+    $params['activenavbar'] = 'directory';
+    return view('directories', $params);
 });
 
 Route::get('/products', function () {
-	return view('products');
+    return view('products');
 });
 
 Route::get('/customers', function () {
-	return view('customers');
+    return view('customers');
 });

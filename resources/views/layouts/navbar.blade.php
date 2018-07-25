@@ -9,7 +9,7 @@
         <div class="nav-wrapper container">
             <a id="logo-container" href="/"><img class="logo-img" src="{{URL::asset('/images/infinitedata_logo.jpg')}}" alt="InfiniteDATA Logo"></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#!">News and Events</a></li>
+                <li @if(isset($activenavbar) and $activenavbar == 'newsandevents') class="active" @endif><a href="/newsandevents">News and Events</a></li>
                 <li @if(isset($activenavbar) and $activenavbar == 'company') class="active" @endif><a href="/company">About Company</a></li>
                 <li @if(isset($activenavbar) and $activenavbar == 'directory') class="active" @endif><a href="/directory">Directory</a></li>
                 <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Resources<i class="material-icons right">arrow_drop_down</i></a></li>
