@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 
-@section('company')
+@section('content')
 	<br>
 	<h5 class="center-align"><u>Our Customers</u></h5>
 	<br><br>

@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 
-@section('company')
+@section('content')
     <br>
     <h5 class="center-align"><u>About Us</u></h5>
     <div id="company" class="container">
@@ -64,14 +64,6 @@
                         <a href="/customers" class="blue-text">Customers</a>
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="grid-example col l12 m12 s12">
-                <a class="waves-effect waves-light btn-floating btn-large social facebook"><i class="fa fa-facebook"></i> Sign in with facebook</a>
-                <a class="waves-effect waves-light btn-floating btn-large social linkedin"><i class="fa fa-linkedin"></i> Sign in with linkedin</a>
-
             </div>
         </div>
     </div>
